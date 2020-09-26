@@ -1,19 +1,21 @@
 import React from 'react';
+import LandingPage from './Pages/LandingPage';
+import LogInPage from './Pages/LogInPage';
+import SignUpPage from './Pages/SignUpPage';
+
 import {
     BrowserRouter as Router,
     Switch,
     Route
 } from "react-router-dom";
-import LogInPage from './Pages/LogInPage';
-import SignUpPage from './Pages/SignUpPage';
 
 export default function Routes() {
     return (
         <div>
             <Router>
                 <Switch>
-                    <Route path = "/Home">
-
+                    <Route path = "/home">
+                    <LandingPage/>
                     </Route>
 
                     <Route path = "/login">
