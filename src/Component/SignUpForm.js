@@ -25,7 +25,7 @@ export default function SignUpForm() {
                 <input type = "date" required = "true" placeholder = "Date of Birth *" id = "dob" className = "dob" />
                 <input type = "text" required = "true" placeholder = "City *" id = "confirmEmail" className = "city" /><br/>
 
-                <Link to = "/home"> <button value = "submit">Sign Up</button></Link>
+                <Link to = "/login"> <button value = "submit">Sign Up</button></Link>
 
             </form>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./login&signup.css";
 
 export default function LogInForm() {
@@ -10,7 +11,7 @@ export default function LogInForm() {
                 <input type = "text" value = "" className = "userName" placeholder = "Username *" required = "true"/> <br/>
                 <label>Password: </label>
                 <input type = "password" value = "" className = "password" placeholder = "Password *" required = "true"/> <br/>
-                <button value = "submit">Log In</button>
+                <Link to = "/home"><button value = "submit">Log In</button></Link>
             </form>
             
         </div>
