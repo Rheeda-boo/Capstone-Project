@@ -1,6 +1,6 @@
 import React from 'react';
-import Footer from '../Components/Footer';
-import NavBar from '../Components/NavBar';
+import Footer from '../Component/Footer';
+import NavBar from '../Component/NavBar';
 import "./events.css"
 
 export default function AfternoonEvents() {
