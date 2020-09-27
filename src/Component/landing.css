@@ -89,7 +89,7 @@ footer {
 a{
     text-decoration: none;
 }
- figure{
+ .one, .two, .three{
      display: flex;
      flex-direction: row;
      border-bottom: 2px #270949 solid;
