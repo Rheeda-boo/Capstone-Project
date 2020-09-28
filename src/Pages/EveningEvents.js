@@ -8,7 +8,7 @@ export default function EveningEvents() {
         <div>
             <div><NavBar/></div>
             <div>
-                <h1>Upcoming Morning Events</h1>
+                <h1>Upcoming Evening Events</h1>
             </div>
 
             <div><Footer/></div>
