@@ -84,14 +84,14 @@ button {
     margin-top: 15px;
   }  
 
-  button:hover {
+  .button:hover {
     background-color: #9085ca;
     color: white;
     font-size: 20px;
 
   }
 
-  button:active {
+  .button:active {
     transform: translateY(4px);
   }
 
