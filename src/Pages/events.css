@@ -9,7 +9,7 @@ h1{
     justify-self: center;
 }
 
-.morningEvents {
+.morningEvents, .afternoonEvents, .evenigEvents {
     display: grid;
     /* grid-gap: 3%; */
     grid-template-columns: auto auto auto;
