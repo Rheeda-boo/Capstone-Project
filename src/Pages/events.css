@@ -11,10 +11,11 @@ h1{
 
 .morningEvents {
     display: grid;
-    grid-gap: 3%;
-    grid-template-columns: auto auto;
+    /* grid-gap: 3%; */
+    grid-template-columns: auto auto auto;
     align-items: center;
-
+    border-left: 50%;
+    /* border-right: 20%; */
 }
 
 .morn{
@@ -38,23 +39,23 @@ h1{
     width: fit-content;
     background-color: #270949;
     color: whitesmoke;
-    float: right;
+    /* float: right; */
     font-size: smaller;
     padding: 6px 10px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 25px;
     /* border-radius: 25px;
     margin-right: 25px;
     margin-top: 15px; */
+    /* margin-left: 40%; */
+
 }
 
 .btn:hover {
     background-color: #9085ca;
     color: white;
-    font-size: small;
-
   }
 
   .btn:active {
