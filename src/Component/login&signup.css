@@ -71,7 +71,7 @@ input {
     float: right;  
 } */
 
-button {
+.button {
     float: right;
     border: none;
     color:#270949;

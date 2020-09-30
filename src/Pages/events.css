@@ -10,9 +10,53 @@ h1{
 }
 
 .morningEvents {
-    display:inline-grid;
+    display: grid;
     grid-gap: 3%;
     grid-template-columns: auto auto;
     align-items: center;
 
 }
+
+.morn{
+    display: flex;
+    flex-direction: column;
+}
+
+.event {
+    height: 250px;
+    width: 300px;
+}
+
+.eventCaption {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.btn {
+    height: fit-content;
+    width: fit-content;
+    background-color: #270949;
+    color: whitesmoke;
+    float: right;
+    font-size: smaller;
+    padding: 6px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+    /* border-radius: 25px;
+    margin-right: 25px;
+    margin-top: 15px; */
+}
+
+.btn:hover {
+    background-color: #9085ca;
+    color: white;
+    font-size: small;
+
+  }
+
+  .btn:active {
+    transform: translateY(4px);
+  }

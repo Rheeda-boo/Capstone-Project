@@ -4,9 +4,12 @@ import NavBar from '../Component/NavBar'
 
 export default function MyEvents() {
     return (
-        <div>
+        <div >
             <NavBar/>
                 <h1>Registered Events</h1>
+                <div className = "myEvents">
+
+                </div>
 
             <Footer/>
         </div>
